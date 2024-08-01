@@ -16,6 +16,7 @@ import { AdminComponent } from './components/admin/admin.component';
     DashboardComponent,
     AdminComponent
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
