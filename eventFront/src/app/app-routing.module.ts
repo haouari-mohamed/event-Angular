@@ -7,6 +7,7 @@ import {AdminComponent} from "./components/admin/admin.component";
 import { EventListComponent } from './components/User/dashboard/events/event-list/event-list.component';
 import { ReservationListComponent } from './components/User/dashboard/reservations/reservation-list/reservation-list.component';
 import { ContactComponent } from './components/User/dashboard/contact/contact.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'admin/dashboard', component: AdminComponent },
   {path :'events', component: EventListComponent},
   {path: 'book', component: ReservationListComponent},
-  {path: 'contact', component : ContactComponent}
+  {path: 'contact', component : ContactComponent},
+  {path: 'logout', component : LogoutComponent}
 
 ];
 
