@@ -13,6 +13,7 @@ import { ReservationListComponent } from './components/User/dashboard/reservatio
 import { EventSearchComponent } from './components/User/dashboard/search/event-search/event-search.component';
 import { HeaderComponent } from './components/User/dashboard/layout/header/header.component';
 import { FooterComponent } from './components/User/dashboard/layout/footer/footer.component';
+import { ContactComponent } from './components/User/dashboard/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './components/User/dashboard/layout/footer/foote
     ReservationListComponent,
     EventSearchComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent
   ],
 
   imports: [
