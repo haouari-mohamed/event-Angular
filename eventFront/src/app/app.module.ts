@@ -14,6 +14,7 @@ import { EventSearchComponent } from './components/User/dashboard/search/event-s
 import { HeaderComponent } from './components/User/dashboard/layout/header/header.component';
 import { FooterComponent } from './components/User/dashboard/layout/footer/footer.component';
 import { ContactComponent } from './components/User/dashboard/contact/contact.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ContactComponent } from './components/User/dashboard/contact/contact.co
     EventSearchComponent,
     HeaderComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    LogoutComponent
   ],
 
   imports: [
