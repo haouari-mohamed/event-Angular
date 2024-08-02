@@ -21,7 +21,7 @@ export class ReservationListComponent implements OnInit {
 
   loadReservations(): void {
     // Replace with the actual user ID or event ID as needed
-    const userId = 1; // Example user ID
+    const userId = 9; // Example user ID
     this.eventBookingService.getReservationsByUser(userId).subscribe(
       (data: Reservation[]) => {
         this.reservations = data;
